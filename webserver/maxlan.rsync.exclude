@@ -1,0 +1,11 @@
+sync_logs/
+phpinfo.php
+tts/tts_config.inc.php
+irc/index.php
+irc/chat.php
+verleih/config.inc.php
+xtube/
+html/cache
+html/styles/maxlan_lan.php
+html/templates/maxlan_lan/
+config.php
