@@ -11,7 +11,7 @@ if [ "$1" == "" ]; then
   exit 0
 fi
 
-LOG="/root/logs/files_$1_`date +%Y$m%d_%H%M`.log"
+LOG="/root/sync_log/files_$1_`date +%Y$m%d_%H%M`.log"
 
 if [ "$1" == "lan" ]; then
   echo "#!/bin/bash" > /tmp/sync_files.sh

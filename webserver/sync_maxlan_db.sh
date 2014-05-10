@@ -15,8 +15,8 @@ if [ "$1" == "" ]; then
   exit 0
 fi
 
-LOG="/root/logs/db_$1_`date +%Y$m%d_%H%M`.log"
-DB="/root/dbs/$MYSQL_DB.$1.`date +%Y$m%d_%H%M`.sql"
+LOG="/root/sync_log/db_$1_`date +%Y$m%d_%H%M`.log"
+DB="/root/sync_db/$MYSQL_DB.$1.`date +%Y$m%d_%H%M`.sql"
 
 if [ "$1" == "lan" ]; then
   echo "#!/bin/bash" > /tmp/sync_db.sh
