@@ -1,0 +1,2 @@
+00,30 *   * * *	root	/root/bkp_files.sh > /dev/null 2>&1 
+00,15,30,45 *   * * * root    /root/bkp_db.sh > /dev/null 2>&1
